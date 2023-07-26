@@ -1,0 +1,22 @@
+body{
+background: aqua
+}
+#buttons button{
+    justify-content: center;
+    align-items: center;
+    
+   background-color: #07FF0F;
+
+
+}
+#controlButtons button {
+    background-color: #07FF0F;
+}
+
+        /* <div id="buttons"></div>
+        <table id="dataTable">
+        <div id="tableUp"></div>
+        <div id="tableDown"></div>
+        </table>
+        <div id="tablePack"></div>
+        <div id="controlButtons"></div> */
