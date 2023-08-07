@@ -1,22 +1,53 @@
-body{
+body {
+transition: 0,2s;
 background: aqua
 }
-#buttons button{
+button {
+    cursor: pointer;
     justify-content: center;
     align-items: center;
-    
-   background-color: #07FF0F;
-
-
+   margin: 5px 5px;
+   background-color: #07FF0F; 
+   border-radius: 5px;
+   box-shadow: 2px 2px 6px;
 }
+
+button{
+    box-shadow: 0 0 20px 10px #08FCDB;
+}
+
+.data-table {
+border-style: solid;
+width: 100%;
+}
+
+.data-table th, .data-table td {
+/* border: 1px solid #f3eb1a; */
+background-color: #08FCDB;
+padding: 8px;
+text-align: left;
+}
+
+.data-table th {
+background-color: #f3eb1a;
+}
+
+
 #controlButtons button {
     background-color: #07FF0F;
 }
 
-        /* <div id="buttons"></div>
-        <table id="dataTable">
-        <div id="tableUp"></div>
-        <div id="tableDown"></div>
-        </table>
-        <div id="tablePack"></div>
-        <div id="controlButtons"></div> */
+
+/* <body>
+    <div id="view">
+        <div id="listView"></div>
+        <div id="detailsView"></div>
+    </div>
+    <div id="buttons"></div>
+    <table id="dataTable">
+        <thead  id="tableUp"></thead>
+        <tbody id="tableDown"></tbody>
+    </table>
+    <div id="tablePack"></div>
+    <div id="controlButtons"></div>
+</body> */
